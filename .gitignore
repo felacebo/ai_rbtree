@@ -1,0 +1,32 @@
+# Build files
+*.o
+*.a
+*.exe
+rbtree_test
+rbtree_gtest
+
+# IDE files
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# External libraries
+googletest/
+
+# OpenSpec files
+openspec/
+.opencode/
+.sisyphus/
+
+# Debug files
+*.dSYM/
